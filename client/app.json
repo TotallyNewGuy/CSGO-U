@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "CSGO-U",
+    "slug": "CSGO-U",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.2.3",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.charlesmade.csgou",
+      "buildNumber": "1.2.3"
+    },
+    "android": {
+      "package": "com.charlesmade.csgou",
+      "versionCode": 23
+    },
+    "description": "A app for quickly getting different utilities usages in game CSGO.",
+    "extra": {
+      "bugsnag": {
+        "apiKey": "7565e5fbeeb28c18020de50ad44bcb87"
+      }
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "@bugsnag/expo/hooks/post-publish.js",
+          "config": {}
+        }
+      ]
+    }
+  }
+}
