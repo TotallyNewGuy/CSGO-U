@@ -36,4 +36,12 @@ $ cd CSGO-U/client
 $ npm install
 $ npm start
 ```
-- It will run at localhost:3000 and open with Expo platform in browser automatically! Done! 👍
+- It will run at localhost:19002(according to expo settings) and open a metro in browser automatically! Done! 👍
+
+## (Optional) Depoly backend server
+- Login or signup https://www.heroku.com/
+- Create a new app in Heroku
+- Download and install Heroku CLI(or other tools) based on its docs.
+- Bind your Heroku accont within your backend project
+- Submit your codes to Heroku and it will help you build it automatically.
+- Now you can change your api URL into Heroku URL you created.
