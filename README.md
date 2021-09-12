@@ -39,7 +39,7 @@ $ npm start
 - It will run at localhost:19002(according to expo settings) and open a metro in browser automatically! Done! 👍
 
 ## (Optional) Depoly backend server
-- Login or signup https://www.heroku.com/
+- Login or signup for https://www.heroku.com/
 - Create a new app in Heroku
 - Download and install Heroku CLI(or other tools) based on its docs.
 - Bind your Heroku accont within your backend project
